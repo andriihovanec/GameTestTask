@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GameTestTask</string>
+    <string name="logo_image">logo image</string>
+    <string name="game_1">Game 1</string>
+    <string name="game_2">Game 2</string>
+    <string name="game_3">Game 3</string>
+    <string name="game_4">Game 4</string>
+    <string name="game_5">Game 5</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="game_title">Game</string>
+    <string name="icon_back">icon back</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/loadingFragment">
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.testtask.gametesttask.ui.LoadingFragment"
+        android:label="LoadingFragment"
+        tools:layout="@layout/fragment_loading">
+        <action
+            android:id="@+id/action_loadingFragment_to_mainManuFragment"
+            app:destination="@id/mainManuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainManuFragment"
+        android:name="com.testtask.gametesttask.ui.MainMenuFragment"
+        android:label="MainManuFragment"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainManuFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.testtask.gametesttask.ui.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game"/>
+</navigation>
